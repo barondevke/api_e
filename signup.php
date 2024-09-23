@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,3 +51,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 }
 ?>
+=======
+<?php
+    require_once "load.php";
+    $ObjLayouts->heading();
+    $ObjMenus->main_menu();
+    $ObjLayouts->banner();
+    $Objforms->sign_up_form();
+    $ObjContents->sidebar();
+    $ObjLayouts->footer();
+>>>>>>> 239d55177c69f76a54eec9f3ec584f703af2c866
